@@ -25,3 +25,9 @@ y_subset <- y[x >= 1.52 & x <= 2.5]
 polygon(c(1.52, x_subset, 2.5),
         c(0, y_subset, 0),
         col = "red")
+
+abline(v=0,col="green")
+
+
+ab <- pnorm(1.96,0,1,lower.tail = TRUE) - pnorm(-1.52,0,1,lower.tail = TRUE)
+print(ab)
