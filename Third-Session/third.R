@@ -31,3 +31,9 @@ abline(v=0,col="green")
 
 ab <- pnorm(1.96,0,1,lower.tail = TRUE) - pnorm(-1.52,0,1,lower.tail = TRUE)
 print(ab)
+#checking pnorm values
+#use R to calculate the probabilities for standard normal variables. 
+#checked with standard normal table values
+pnorm(0,0,1) #mean =0 sd=1
+pnorm(0.24,0,1)
+pnorm(2)
