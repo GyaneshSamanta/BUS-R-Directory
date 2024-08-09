@@ -37,3 +37,8 @@ print(ab)
 pnorm(0,0,1) #mean =0 sd=1
 pnorm(0.24,0,1)
 pnorm(2)
+
+# use R to find a z value for a given probability
+# for a standard normal variable Z, find the z value that satisfy P(Z<=z)=0.6808
+qnorm(0.6808,0,1) #mean = 0 , sd =1 
+qnorm(0.97725,0,1)
