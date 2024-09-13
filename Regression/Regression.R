@@ -21,4 +21,3 @@ print(result)
 #now plot the linear regression
 plot(y,x,col="blue",main="Height & weight Regression", abline(lm(x~y)),cex=1.3,pch=16,
      xlab="Weight in Kg",ylab="Height in cm")
-

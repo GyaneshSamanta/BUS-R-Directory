@@ -40,12 +40,5 @@ plot(x, y, type = "l", col = "red")
 polygon(c(-3, seq(-3, 0, by = 0.1), 0), c(0, dnorm(seq(-3, 0, by = 0.1), mean = 0, sd = 1), 0), col = "red")
 
 
-# Subset the x and y values for the range -1.52 to 1.96
-x_subset <- x[x >= -1.52 & x <= 1.96]
-y_subset <- y[x >= -1.52 & x <= 1.96]
 
-# Shade the area under the curve from -1.52 to 1.96 using the subset of y
-polygon(c(-1.52, x_subset, 1.96), 
-        c(0, y_subset, 0), 
-        col = "red")
 
