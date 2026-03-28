@@ -1,14 +1,13 @@
 # BUS-R Directory
 
-A centralized directory management system focused on business-level data organization and retrieval.
+A centralized resource management and indexing system designed for organizational data structuring and retrieval.
 
-## Features
+## System Capabilities
 
-- **Resource Organization**: Structured indexing of business units and resources.
-- **Data Persistence**: Lightweight storage and retrieval mechanisms.
-- **Scalable Architecture**: Designed to handle growing datasets of business entities.
+- **Business Entity Indexing**: High-performance classification of business units and their associated resources.
+- **Dynamic Retrieval**: Search and access protocols for efficient data management.
+- **Extensible Architecture**: Built to handle large-scale business directories with minimal overhead.
 
-## Future Plans
+## Deployment
 
-- UI-based dashboard for easier directory navigation.
-- API endpoints for external service integration.
+Designed for easy deployment in corporate intranet environments or as a backend service for ERP systems.
